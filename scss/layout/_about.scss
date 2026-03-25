@@ -23,6 +23,11 @@
     width: 100%;
     max-width: 577px;
     margin-inline: auto;
+    position: relative;
+
+    .big-shadow {
+      top: 57px;
+    }
   }
 
   &__content {
@@ -48,6 +53,10 @@
     line-height: 2;
     font-weight: 400;
     text-align: center;
+  }
+
+  &__inner {
+    background-color: #fff;
   }
 
   &__features {

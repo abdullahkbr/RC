@@ -1,6 +1,7 @@
 .practice {
   width: 100%;
-  max-width: 1063px;
+  max-width: calc(1063px + 40px);
+  padding-inline: 20px;
   margin-inline: auto;
   padding-block: 139px 145px;
 
@@ -9,7 +10,7 @@
   }
 
   .title {
-    margin-bottom: 149px;
+    margin-bottom: 102px;
 
     @media (max-width: 768px) {
       margin-bottom: 40px;
@@ -17,6 +18,9 @@
   }
 
   &__container {
+    position: relative;
+    background-color: #fff;
+    padding-top: 66px;
 
     p {
       color: var(--color-primary);
@@ -24,6 +28,11 @@
       @media (max-width: 768px) {
         font-size: 10px;
       }
+    }
+
+    .big-shadow {
+      top: -120px;
+      width: 100%;
     }
   }
 

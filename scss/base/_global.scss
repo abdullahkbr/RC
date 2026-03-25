@@ -25,3 +25,21 @@ img {
     font-size: var(--font-size-sm);
    }
 }
+
+.big-shadow {
+  position: absolute;
+  width: 1133px;
+  height: 1156px;
+  top: 469px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: radial-gradient(50% 50% at 50% 50%, #A3934E 0%, #FFFFFF 100%);
+  border-radius: 50%;
+  z-index: -1;
+
+  @media (max-width: 1200px) {
+    width: 100%;
+    height: 100%;
+    top: 100px;
+  }
+}
