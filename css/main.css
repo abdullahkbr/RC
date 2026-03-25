@@ -1660,17 +1660,5 @@ img {
     margin-bottom: 40px;
   }
 }
-.legals__content {
-  background-color: #fff;
-  width: 100%;
-  position: relative;
-  padding-top: 66px;
-  border: 1px solid red;
-}
-.legals__content .big-shadow {
-  top: -120px;
-  width: 100%;
-  height: 400%;
-}
 
 /*# sourceMappingURL=main.css.map */
