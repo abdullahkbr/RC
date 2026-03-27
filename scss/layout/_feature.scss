@@ -40,17 +40,26 @@
     }
   }
 
-  &__card {
-    background: var(--color-primary);
+  &__item {
     width: 100%;
     max-width: max-content;
+
+    @media (max-width: 768px) {
+      max-width: 100%;
+    }
+  }
+
+  &__card {
+    background: var(--color-primary);
     text-decoration: none;
     padding: 37px 23px 25px 43px;
     border-radius: 10px;
     position: relative;
+    display: block;
+    transition: background 0.3s ease;
+    height: 100%;
 
     @media (max-width: 768px) {
-      max-width: 100%;
       padding: 20px;
     }
 

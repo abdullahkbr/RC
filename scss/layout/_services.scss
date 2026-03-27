@@ -65,10 +65,13 @@
     }
   }
 
-  &__link {
-    text-decoration: none;
+  &__item {
     width: 100%;
     max-width: 414px;
+  }
+
+  &__link {
+    text-decoration: none;
     font-size: 28px;
     font-weight: 700;
     padding-block: 60px;
@@ -79,6 +82,7 @@
     background: transparent;
     position: relative;
     text-align: center;
+    display: block;
 
     &:hover {
       background: var(--color-secondary);
